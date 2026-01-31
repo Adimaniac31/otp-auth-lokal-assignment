@@ -31,12 +31,13 @@ It is built as per the given Android assignment, with emphasis on **correct stat
 ## Architecture Overview
 
 The application follows a clean separation of concerns:
+```
 UI (Jetpack Compose)
 ↓
 AuthViewModel (State + Business Orchestration)
 ↓
 OtpManager (Pure OTP Logic)
-
+```
 
 - Composables are responsible only for rendering UI and handling user input  
 - ViewModel owns all business state and application flow  
@@ -164,7 +165,6 @@ com.example.otpauthapp
 ├── OtpAuthApplication
 └── MainActivity
 ```
-S
 ---
 
 ## What Was Intentionally Avoided
