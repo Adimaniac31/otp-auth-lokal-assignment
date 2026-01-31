@@ -86,7 +86,7 @@ This order prevents wasting attempts on expired OTPs and ensures defensive handl
 
 ---
 
-## 📊 Logging and External SDK (Timber)
+## Logging and External SDK (Timber)
 
 **Timber** is used as the external SDK for logging.
 
@@ -109,7 +109,7 @@ This order prevents wasting attempts on expired OTPs and ensures defensive handl
 
 ---
 
-## 🤖 Use of GPT / AI Assistance
+## Use of GPT / AI Assistance
 
 GPT was used to:
 
@@ -121,7 +121,7 @@ All core logic, data structures, and implementation decisions were **understood 
 
 ---
 
-## 🚀 Setup Instructions (For New Users)
+## Setup Instructions (For New Users)
 
 ### Prerequisites
 
@@ -144,26 +144,27 @@ All core logic, data structures, and implementation decisions were **understood 
 ---
 
 ## Project Structure
+```
 com.example.otpauthapp
 │
 ├── data
-│ ├── OtpRecord
-│ └── OtpManager
+│   ├── OtpRecord
+│   └── OtpManager
 │
 ├── viewModel
-│ ├── AuthState
-│ └── AuthViewModel
+│   ├── AuthState
+│   └── AuthViewModel
 │
 ├── ui
-│ ├── AuthApp
-│ ├── LoginScreen
-│ ├── OtpScreen
-│ └── SessionScreen
+│   ├── AuthApp
+│   ├── LoginScreen
+│   ├── OtpScreen
+│   └── SessionScreen
 │
 ├── OtpAuthApplication
 └── MainActivity
-
-
+```
+S
 ---
 
 ## What Was Intentionally Avoided
